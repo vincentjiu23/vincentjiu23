@@ -1,356 +1,207 @@
- <div align="center">
+ 
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:090B09,50:202820,100:72F18B&text=VINCENT%20JIU&fontColor=E5E7E5&fontSize=55&fontAlignY=45&desc=IDENTITY%20%2F%20SECURITY%20%2F%20ENGINEERING&descSize=12&descAlignY=65&animation=fadeIn" width="100%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=10&duration=3000&pause=1000&color=72F18B&center=true&vCenter=true&width=750&height=45&lines=IAM+ENGINEER+IN+PROGRESS;CYBERSECURITY+ENTHUSIAST;AI+%26+SOFTWARE+DEVELOPER;BUILDING+SYSTEMS+THAT+MATTER" />
+<img src="./assets/digital-rain.svg" width="100%" alt="Animated digital rain background with Vincent Jiu Setiawan title"/>
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=vincentjiu23&style=flat-square&color=72F18B&label=VISITORS)
-![Followers](https://img.shields.io/github/followers/vincentjiu23?style=flat-square&color=72F18B&label=FOLLOWERS)
-![GitHub User's Stars](https://img.shields.io/github/stars/vincentjiu23?style=flat-square&color=72F18B&label=STARS)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=2500&pause=700&color=39FF14&center=true&vCenter=true&width=650&lines=IAM+%26+Cybersecurity+Enthusiast;Identity+%26+Access+Management;Building+Secure+and+Practical+Systems;Always+Learning.+Always+Building.)](https://git.io/typing-svg)
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vincentjiu23)
+![Profile Views](https://komarev.com/ghpvc/?username=vincentjiu23&style=for-the-badge&color=39FF14&label=PROFILE+VIEWS)
 
 </div>
+
+---
+
+## `01 // SYSTEM PROFILE`
 
 ```bash
-vincent@github:~$ ./initialize_profile.sh
+vincent@github:~$ whoami
 
-[ OK ] Loading developer profile...
-[ OK ] Initializing IAM modules...
-[ OK ] Loading cybersecurity toolkit...
-[ OK ] Connecting AI & engineering systems...
-
-STATUS: ONLINE
+Vincent Jiu Setiawan
+Information Systems Graduate
+IAM | Cybersecurity | Software Engineering
 ```
 
----
+I'm interested in building secure, reliable, and practical technology solutions. My main focus is **Identity and Access Management (IAM)**, cybersecurity, and software development.
 
-## `01 / ABOUT ME`
+I enjoy exploring how systems work behind the scenes — from identity lifecycle management and access control to backend architecture and automation.
 
 ```yaml
-name: Vincent Jiu Setiawan
-alias: Vin
-education: Information Systems
-university: Universitas Multimedia Nusantara
-focus:
+currently_focused:
   - Identity & Access Management
-  - Cybersecurity & Infrastructure
-  - Software Engineering
-  - Artificial Intelligence
-  - Data Engineering & Analytics
+  - Identity Governance & Administration
+  - Privileged Access Management
+  - Cybersecurity
 
-mindset: Continuous Learning
-status: Always Building
+interests:
+  - Backend Development
+  - Infrastructure & System Administration
+  - Data Analytics
+  - AI-powered Applications
+
+mindset: "Learn. Build. Secure. Improve."
 ```
 
-I'm an Information Systems graduate with professional experience in **Identity & Access Management (IAM)**, enterprise application integration, data processing, and software development.
-
-My technical interests revolve around designing secure identity infrastructures, automating workflows, building intelligent applications, and developing scalable solutions.
-
-I enjoy working across different layers of technology — from identity protocols and infrastructure to backend systems, databases, and AI-powered applications.
-
----
-
-## `02 / TECHNICAL DOMAINS`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### `[01] IDENTITY & ACCESS`
-
-- Identity Lifecycle Management
-- User Provisioning & Deprovisioning
-- Single Sign-On (SSO)
-- Multi-Factor Authentication (MFA)
-- Role-Based Access Control (RBAC)
-- Identity Governance & Administration
-- Privileged Access Management
-
-</td>
-<td width="50%" valign="top">
-
-### `[02] SECURITY & INFRASTRUCTURE`
-
-- Active Directory & LDAP
-- OAuth 2.0 / OpenID Connect
-- SAML 2.0
-- Vulnerability Assessment
-- Application Security
-- Linux Administration
-- Docker & Infrastructure Monitoring
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### `[03] AI & SOFTWARE ENGINEERING`
-
-- Agentic AI & RAG
-- LLM Orchestration
-- Full-Stack Development
-- REST API Integration
-- Backend Engineering
-- Workflow Automation
-
-</td>
-<td width="50%" valign="top">
-
-### `[04] DATA & ANALYTICS`
-
-- SQL & Database Management
-- ETL & Data Transformation
-- Data Cleansing & Validation
-- Data Visualization
-- Power BI
-- Machine Learning
-
-</td>
-</tr>
-</table>
-
----
-
-## `03 / PROFESSIONAL EXPERIENCE`
-
-**IDENTITY & ACCESS MANAGEMENT — PT GLOBAL INNOVATION TECHNOLOGY**
-
-`AUG 2025 — AUG 2026`
-
-- Worked on enterprise IAM implementations and identity infrastructure.
-- Configured and integrated Keycloak with Active Directory and LDAP.
-- Worked with SSO, MFA, authentication, and authorization.
-- Supported identity provisioning and deprovisioning workflows.
-- Integrated IAM with enterprise applications and monitoring platforms.
-- Participated in security testing and vulnerability assessment activities.
-
-**DATA PROCESSING & ANALYTICS — INDRANIAT**
-
-`2024 — 2025`
-
-- Worked with customer data processing and database operations.
-- Supported data transformation, cleansing, and validation.
-- Developed analytical reports and Power BI visualizations.
-- Explored business process automation and data management.
-
----
-
-## `04 / SELECTED PROJECTS`
+## `02 // EXPERTISE`
 
 <details open>
-<summary><b>[ AI SYSTEMS ] — Agentic RAG Chatbot</b></summary>
+<summary><b>Identity & Access Management</b></summary>
+<br/>
 
-**PMI Klaten | Intelligent Information Retrieval**
-
-An Agentic RAG chatbot designed to support PMI information services using an agent-based retrieval and evaluation workflow.
-
-**Architecture:**
-
-```text
-USER QUERY
-    |
-QUESTION ROUTER
-    |
-DOCUMENT RETRIEVER
-    |
-KNOWLEDGE EVALUATOR
-    |
-RESPONSE GENERATOR
-    |
-HALLUCINATION CHECKER
-    |
-FINAL RESPONSE
-```
-
-**Technologies**
-
-`Python` `LangGraph` `FAISS` `PostgreSQL` `pgvector` `Ollama` `Qwen` `Gemini` `Telegram`
-
-[ACCESS REPOSITORY →](https://github.com/vincentjiu23/Vincent-Jiu-Setiawan_00000066977_PMI-Klaten-Agentic-RAG-Chatbot)
+![Keycloak](https://img.shields.io/badge/Keycloak-000000?style=flat-square&logo=keycloak&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active_Directory-333333?style=flat-square&logo=microsoft&logoColor=white)
+![LDAP](https://img.shields.io/badge/LDAP-333333?style=flat-square&logo=databricks&logoColor=white)
+![Microsoft Entra ID](https://img.shields.io/badge/Microsoft_Entra_ID-000000?style=flat-square&logo=microsoft&logoColor=white)
+![MidPoint](https://img.shields.io/badge/MidPoint-333333?style=flat-square)
+![SSO](https://img.shields.io/badge/SSO-000000?style=flat-square)
+![MFA](https://img.shields.io/badge/MFA-333333?style=flat-square)
 
 </details>
 
 <details>
-<summary><b>[ SOFTWARE ENGINEERING ] — Developer Portfolio</b></summary>
+<summary><b>Development & Programming</b></summary>
+<br/>
 
-Interactive developer portfolio featuring a terminal-inspired interface, dynamic project showcases, animated components, and GitHub activity visualization.
-
-`Next.js` `React` `TypeScript` `Tailwind CSS` `Framer Motion` `Recharts`
-
-[ACCESS REPOSITORY →](https://github.com/vincentjiu23/vincent-portfolio)
-
-</details>
-
-<details>
-<summary><b>[ FULL-STACK DEVELOPMENT ] — Loluna Care</b></summary>
-
-Modern web application with dynamic content management, reusable UI components, and responsive layouts.
-
-`Next.js` `TypeScript` `Prisma` `SQLite` `Tailwind CSS`
-
-[ACCESS REPOSITORY →](https://github.com/vincentjiu23/project_loluna)
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat-square&logo=javascript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-333333?style=flat-square&logo=php&logoColor=white)
+![Java](https://img.shields.io/badge/Java-000000?style=flat-square&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-333333?style=flat-square&logo=csharp&logoColor=white)
 
 </details>
 
 <details>
-<summary><b>[ AUTOMATION ] — Smart Document Converter</b></summary>
+<summary><b>Infrastructure, Database & Security</b></summary>
+<br/>
 
-Desktop document automation application for transforming Excel data into structured Word documents using field mapping and validation workflows.
+![Linux](https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-333333?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-333333?style=flat-square&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-000000?style=flat-square&logo=sqlite&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-333333?style=flat-square&logo=grafana&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-000000?style=flat-square&logo=powerbi&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP-333333?style=flat-square&logo=owasp&logoColor=white)
 
-`Python` `FastAPI` `React` `TypeScript` `Tauri` `Rust`
+</details>
 
-[ACCESS REPOSITORY →](https://github.com/vincentjiu23/excel-to-word-conv)
+## `03 // PROJECT EXPLORER`
+
+<sub>Explore selected projects. Expand each section to see more.</sub>
+
+<details open>
+<summary><b>01 — PMI Klaten | Agentic RAG Chatbot</b> <code>AI / RAG / Backend</code></summary>
+<br/>
+
+An information chatbot for the Indonesian Red Cross (PMI) Klaten, designed to retrieve relevant information and generate contextual responses.
+
+**Core technologies**
+
+`Python` `LangGraph` `PostgreSQL` `PGVector` `FAISS` `Ollama` `Gemini`
+
+**Highlights**
+- Agentic Retrieval-Augmented Generation workflow.
+- Document retrieval and knowledge evaluation.
+- Hallucination checking and response generation.
+- Hybrid local and cloud model routing.
+
+[↗ View Repository](https://github.com/vincentjiu23/Vincent-Jiu-Setiawan_00000066977_PMI-Klaten-Agentic-RAG-Chatbot)
 
 </details>
 
 <details>
-<summary><b>[ DESKTOP ENGINEERING ] — Radial File Studio</b></summary>
+<summary><b>02 — Vincent Portfolio</b> <code>Frontend / Web Development</code></summary>
+<br/>
 
-Windows desktop file management and conversion application with drag-and-drop interaction and local file indexing.
+Personal portfolio website showcasing projects and development work.
 
-[ACCESS REPOSITORY →](https://github.com/vincentjiu23/widget-convert-file-management)
+`Next.js` `React` `TypeScript` `Tailwind CSS` `Framer Motion`
+
+[↗ View Repository](https://github.com/vincentjiu23/vincent-portfolio)
 
 </details>
 
 <details>
-<summary><b>[ ENTERPRISE APPLICATION ] — Odoo Room Booking</b></summary>
+<summary><b>03 — Data Analytics Final Project</b> <code>Data Analytics</code></summary>
+<br/>
 
-Custom ERP module featuring room management, booking workflows, automated numbering, and business validation.
+Academic final project focused on data analysis and analytical problem-solving.
 
-`Python` `Odoo 17` `PostgreSQL`
-
-[ACCESS REPOSITORY →](https://github.com/vincentjiu23/odoo-custom-module)
+[↗ View Repository](https://github.com/vincentjiu23/data-analyst-final-project)
 
 </details>
 
----
+<details>
+<summary><b>04 — Machine Learning Final Project</b> <code>Machine Learning</code></summary>
+<br/>
 
-## `05 / DATA & ANALYTICAL WORK`
+Academic project exploring machine learning concepts and implementation.
 
-A separate collection of projects focused on data analysis, data-driven problem solving, and machine learning.
+[↗ View Repository](https://github.com/vincentjiu23/final-project-machine-learning)
 
-| Repository | Focus |
-|---|---|
-| [Data Analyst Final Project](https://github.com/vincentjiu23/data-analyst-final-project) | Data analytics & reporting |
-| [Machine Learning Final Project](https://github.com/vincentjiu23/final-project-machine-learning) | Machine learning & predictive analysis |
+</details>
 
-**Analytical workflow**
+<details>
+<summary><b>05 — Odoo Custom Module</b> <code>ERP / Backend</code></summary>
+<br/>
 
-```text
-RAW DATA
-   |
-DATA EXTRACTION
-   |
-CLEANING & TRANSFORMATION
-   |
-EXPLORATORY DATA ANALYSIS
-   |
-ANALYSIS / MODELING
-   |
-VISUALIZATION & INSIGHTS
-```
+Custom Odoo module development and business workflow implementation.
 
-*Repository-specific datasets, methodologies, and findings are documented in their respective projects.*
+`Python` `Odoo` `PostgreSQL`
 
----
+[↗ View Repository](https://github.com/vincentjiu23/odoo-custom-module)
 
-## `06 / TECHNOLOGY STACK`
+</details>
 
-**IDENTITY & SECURITY**
+<details>
+<summary><b>06 — Excel to Word Converter</b> <code>Automation / Desktop App</code></summary>
+<br/>
 
-![Keycloak](https://img.shields.io/badge/KEYCLOAK-171A17?style=flat-square&logo=keycloak&logoColor=72F18B)
-![MidPoint](https://img.shields.io/badge/MIDPOINT-171A17?style=flat-square&color=171A17)
-![Active Directory](https://img.shields.io/badge/ACTIVE_DIRECTORY-171A17?style=flat-square&logo=microsoft&logoColor=72F18B)
-![LDAP](https://img.shields.io/badge/LDAP-171A17?style=flat-square)
-![OAuth](https://img.shields.io/badge/OAUTH_2.0-171A17?style=flat-square)
-![SAML](https://img.shields.io/badge/SAML-171A17?style=flat-square)
-![OWASP](https://img.shields.io/badge/OWASP-171A17?style=flat-square&logo=owasp&logoColor=72F18B)
+A utility project for converting and managing document workflows.
 
-**PROGRAMMING & DEVELOPMENT**
+`Python` `FastAPI` `React` `TypeScript` `Tauri`
 
-![Python](https://img.shields.io/badge/PYTHON-171A17?style=flat-square&logo=python&logoColor=72F18B)
-![JavaScript](https://img.shields.io/badge/JAVASCRIPT-171A17?style=flat-square&logo=javascript&logoColor=72F18B)
-![TypeScript](https://img.shields.io/badge/TYPESCRIPT-171A17?style=flat-square&logo=typescript&logoColor=72F18B)
-![Java](https://img.shields.io/badge/JAVA-171A17?style=flat-square&logo=openjdk&logoColor=72F18B)
-![PHP](https://img.shields.io/badge/PHP-171A17?style=flat-square&logo=php&logoColor=72F18B)
-![CSharp](https://img.shields.io/badge/C%23-171A17?style=flat-square&logo=csharp&logoColor=72F18B)
+[↗ View Repository](https://github.com/vincentjiu23/excel-to-word-conv)
 
-**FRAMEWORKS & AI**
+</details>
 
-![React](https://img.shields.io/badge/REACT-171A17?style=flat-square&logo=react&logoColor=72F18B)
-![Next.js](https://img.shields.io/badge/NEXT.JS-171A17?style=flat-square&logo=nextdotjs&logoColor=72F18B)
-![FastAPI](https://img.shields.io/badge/FASTAPI-171A17?style=flat-square&logo=fastapi&logoColor=72F18B)
-![LangGraph](https://img.shields.io/badge/LANGGRAPH-171A17?style=flat-square)
-![Ollama](https://img.shields.io/badge/OLLAMA-171A17?style=flat-square)
-![Laravel](https://img.shields.io/badge/LARAVEL-171A17?style=flat-square&logo=laravel&logoColor=72F18B)
-
-**DATABASE & INFRASTRUCTURE**
-
-![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-171A17?style=flat-square&logo=postgresql&logoColor=72F18B)
-![MySQL](https://img.shields.io/badge/MYSQL-171A17?style=flat-square&logo=mysql&logoColor=72F18B)
-![SQLite](https://img.shields.io/badge/SQLITE-171A17?style=flat-square&logo=sqlite&logoColor=72F18B)
-![Docker](https://img.shields.io/badge/DOCKER-171A17?style=flat-square&logo=docker&logoColor=72F18B)
-![Linux](https://img.shields.io/badge/LINUX-171A17?style=flat-square&logo=linux&logoColor=72F18B)
-![Git](https://img.shields.io/badge/GIT-171A17?style=flat-square&logo=git&logoColor=72F18B)
-![Grafana](https://img.shields.io/badge/GRAFANA-171A17?style=flat-square&logo=grafana&logoColor=72F18B)
-![Power BI](https://img.shields.io/badge/POWER_BI-171A17?style=flat-square&logo=powerbi&logoColor=72F18B)
-
----
-
-## `07 / GITHUB ANALYTICS`
+## `04 // GITHUB ANALYTICS`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=vincentjiu23&show_icons=true&hide_border=true&bg_color=090B09&title_color=72F18B&text_color=E5E7E5&icon_color=72F18B&include_all_commits=true" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vincentjiu23&layout=compact&hide_border=true&bg_color=090B09&title_color=72F18B&text_color=E5E7E5&langs_count=8" width="49%"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=vincentjiu23&show_icons=true&hide_border=true&bg_color=0D1117&title_color=39FF14&icon_color=39FF14&text_color=FFFFFF&ring_color=39FF14" alt="GitHub statistics"/>
 
-<br/><br/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vincentjiu23&layout=compact&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=FFFFFF" alt="Most used languages"/>
 
-<img src="https://streak-stats.demolab.com?user=vincentjiu23&hide_border=true&background=090B09&ring=72F18B&fire=72F18B&currStreakLabel=72F18B&sideLabels=E5E7E5&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=858B85" width="75%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vincentjiu23&bg_color=090B09&color=E5E7E5&line=72F18B&point=FFFFFF&area=true&hide_border=true" width="100%"/>
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=vincentjiu23&bg_color=0D1117&color=39FF14&line=39FF14&point=FFFFFF&area=true&hide_border=true" alt="Contribution activity graph"/>
 
 </div>
 
----
+## `05 // CURRENT STATUS`
 
-## `08 / EDUCATION & CERTIFICATION`
-
-**UNIVERSITAS MULTIMEDIA NUSANTARA**
-
-Bachelor of Information Systems  
-2022 – 2026
-
-`GPA: 3.51 / 4.00`
-
-**CERTIFIED INTERNATIONAL SPECIALIST IN DATA VISUALIZATION (CISDV)**
-
-PASAS Institute  
-2025 – 2028
+```text
+[ SYSTEM STATUS ]
+Identity & Access Management  : ACTIVE
+Cybersecurity Learning        : ACTIVE
+Software Development          : ONGOING
+Knowledge Exploration         : CONTINUOUS
+```
 
 ---
-
-## `09 / ESTABLISH CONNECTION`
-
-Interested in IAM, cybersecurity, infrastructure, AI engineering, or software development?
-
-Let's connect and exchange ideas.
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GITHUB-171A17?style=for-the-badge&logo=github&logoColor=72F18B)](https://github.com/vincentjiu23)
+### `END OF TRANSMISSION`
 
-<br/>
+**Thanks for visiting my profile.**
 
-```text
-> END OF TRANSMISSION
-> KEEP LEARNING. KEEP BUILDING.
-> SYSTEM EXIT: 0
-```
+<sub>Built with curiosity, persistence, and a little bit of caffeine.</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:090B09,100:72F18B&height=4&section=footer" width="100%"/>
+![Footer](https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=3&section=footer)
 
 </div>
